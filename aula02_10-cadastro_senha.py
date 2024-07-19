@@ -14,5 +14,5 @@ senha_conf = float(input("Digite a senha novamente: "))
 # Verifica se as senhas são iguais e imprimi a mensagem correspondente
 resultado = "Senha correta. Bem-vindo." if senha == senha_conf else 'Senha incorreta. Tente novamente'
 
-# Imprime a mensagem com a ordem cronológica dos números
+# Imprime a mensagem com o resultado
 print (resultado)
